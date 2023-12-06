@@ -1,0 +1,210 @@
+@import "kiwoomUtil.scss";
+
+.main_wrap {
+  .second_section {
+    .second_middle_box {
+      padding: 170px 0 0;
+      text-align: center;
+      .middle_text {
+        width: 70%;
+        word-break: keep-all;
+        margin: 0 auto;
+        font-size: 25px;
+        font-weight: 500;
+        color: #000;
+        font-family: "Kimjungchul_R";
+      }
+    }
+  }
+  .third_back {
+    background-color: #ededed;
+    margin-top: 226px;
+    min-height: 857px;
+    position: relative;
+    .third_container {
+      position: absolute;
+      padding: 0 250px;
+      top: -134px;
+      .third_contents_box {
+        width: calc((100% - 50px) / 2);
+        display: inline-block;
+        vertical-align: top;
+        &.left {
+          margin-right: 50px;
+        }
+        &.right {
+          .third_img {
+            background-image: url("../img/middle_img_2.png");
+          }
+        }
+        .third_img {
+          @include background_set(100%, 423px, cover);
+          background-image: url("../img/middle_img_1.png");
+        }
+        .third_text_box {
+          padding: 105px 100px 0;
+          text-align: center;
+          word-break: keep-all;
+
+          .contents_title {
+            color: #000;
+            font-size: 40px;
+            font-weight: 700;
+            font-family: "NanumS_R";
+            padding-bottom: 40px;
+          }
+          .contents_text {
+            color: #000;
+            font-size: 25px;
+            font-weight: 500;
+            font-family: "Kimjungchul_R";
+            &.sub {
+              padding-top: 40px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .fourth_back {
+    .fourth_slick_box {
+      padding-left: 230px;
+    }
+    .fourth_middle_box {
+      padding: 170px 0 0;
+      text-align: center;
+      .middle_text_box {
+        width: 60%;
+        margin: 0 auto;
+        color: #000;
+        font-size: 25px;
+        word-break: keep-all;
+        padding-bottom: 40px;
+        font-family: "Pretendart_R";
+        line-height: 40px;
+      }
+      .middle_btn_box {
+        .middle_btn {
+          display: inline-block;
+          padding: 15px 165px;
+          border: 1px solid #767676;
+          background-color: #f2f2f2;
+          border-radius: 10px;
+          color: #6c6c6c;
+          font-size: 16px;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+  .middle_banner_box {
+    padding: 148px 0 332px 0;
+    .middle_banner {
+      @include background_set(100%, 626px, cover);
+      background-image: url("../img/middle_banner_img.png");
+    }
+  }
+  .fifth_section {
+    padding-top: 0;
+  }
+  .sixth_section {
+    padding-top: 240px;
+  }
+  .sixth_back {
+    padding: 146px 0 232px;
+    .sixth_container {
+      padding: 0 206px;
+      .map_box {
+        display: inline-block;
+        width: 961px;
+        border: 1px solid #000;
+        margin-right: 70px;
+        min-height: 605px;
+        vertical-align: middle;
+      }
+      .sixth_contents_box {
+        display: inline-block;
+        width: calc(100% - 1031px);
+        vertical-align: middle;
+        font-family: "AppleSD_R";
+        .contents_title {
+          font-size: 35px;
+          color: #525252;
+          font-weight: 900;
+          line-height: 40px;
+          padding-bottom: 50px;
+          &.sub {
+            opacity: 0.5;
+            font-weight: 500;
+            font-size: 25px;
+            padding-bottom: 30px;
+          }
+        }
+        .time_text_box {
+          padding: 0 0 50px;
+          .time_text {
+            font-size: 23px;
+            font-weight: 500;
+            color: #525252;
+            padding-bottom: 10px;
+            &.blue {
+              color: #4a5eff;
+            }
+          }
+        }
+        .tel_text {
+          font-size: 50px;
+          color: #000;
+          padding-bottom: 50px;
+        }
+        .sub_text {
+          color: #707070;
+          font-size: 20px;
+          &.sub {
+            padding-top: 40px;
+          }
+        }
+      }
+    }
+  }
+}
+
+// footer
+
+.footer_wrap {
+  .footer_back {
+    background-color: #fff;
+    border-top: 1px solid #76767680;
+    font-family: "AppleSD_R";
+    .footer_top {
+      padding: 53px 0 53px 110px;
+      .footer_logo_box {
+        width: 184px;
+        height: 58px;
+        display: inline-block;
+        vertical-align: middle;
+        .footer_logo {
+          @include background_set(100%, 100%, cover);
+          background-image: url("../img/main_logo.png");
+        }
+      }
+      .footer_text_box {
+        display: inline-block;
+        vertical-align: middle;
+        color: #707070;
+        font-size: 15px;
+        line-height: 20px;
+      }
+    }
+    .footer_bottom {
+      border-top: 1px solid #767676;
+      text-align: center;
+      padding: 50px 0;
+      .footer_bottom_text {
+        display: inline-block;
+        color: #707070;
+        font-size: 15px;
+      }
+    }
+  }
+}

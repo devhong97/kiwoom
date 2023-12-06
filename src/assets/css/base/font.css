@@ -27,3 +27,10 @@
   font-family: "NanumS_R";
   src: url("../../font/NanumSquareR.ttf");
 }
+
+/* pretendard */
+
+@font-face {
+  font-family: "Pretendart_R";
+  src: url("../../font/Pretendard-Medium.ttf");
+}
