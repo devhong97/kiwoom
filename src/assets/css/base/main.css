@@ -1,0 +1,342 @@
+/********************************/
+@import url("font.css");
+/********************************/
+/* MAIN */
+/********************************/
+.wrap {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+/********************************/
+/* SECTION */
+/********************************/
+.section {
+  width: 75%;
+  padding-top: 150px;
+  margin: 0 auto;
+}
+.section .section-inner {
+  position: relative;
+  display: inline-block;
+}
+.section .section-sub {
+  padding-top: 10px;
+}
+.section .section-txt {
+  padding-top: 50px;
+}
+/********************************/
+/* INTRODUCTION 폰트 */
+/********************************/
+.section .section-inner p {
+  font-family: "NanumM";
+  font-size: 35px;
+  color: #434343;
+}
+.section .section-sub p {
+  font-family: "NanumS_R";
+  font-size: 19px;
+  color: #434343;
+}
+.section .section-txt p {
+  font-family: "NanumS_R";
+  font-size: 17px;
+  color: #434343;
+}
+.section .section-txt2 p {
+  font-family: "NanumS_R";
+  font-size: 40px;
+  color: #434343;
+  text-align: center;
+  padding-top: 140px;
+  margin-bottom: 140px;
+}
+/********************************/
+/* INTRODUCTION 라인 */
+/********************************/
+.section .section-inner::before,
+.section .section-inner::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 100vw;
+  height: 1px;
+  background-color: #000;
+}
+/********************************/
+/* 라인 위치 */
+/********************************/
+.section .section-inner::before {
+  left: 0;
+  transform: translateX(-101%);
+}
+.section .section-inner::after {
+  right: 0;
+  transform: translateX(101%);
+}
+/********************************/
+/* SECTION 2 */
+/********************************/
+.section-2 {
+  width: 100%;
+  height: 100%;
+  background-color: #ededed;
+}
+/********************************/
+/* 진료분야 */
+/********************************/
+.section-2 .section2-left,
+.section-2 .section2-right {
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  box-sizing: border-box;
+  position: relative;
+  vertical-align: top;
+  padding: 100px;
+}
+.section-2 .section2-txt {
+  width: 40%;
+  margin: 0 auto;
+}
+.section-2 .section2-txt {
+  width: 40%;
+  margin: 0 auto;
+}
+.section2-left p,
+.section2-right p {
+  font-size: 23px;
+  text-align: center;
+  line-height: 1.3;
+  font-family: "Kimjungchul_R";
+}
+.section2-left p:first-child,
+.section2-right p:first-child {
+  font-size: 33px;
+  font-weight: 800;
+  padding-bottom: 50px;
+}
+.section2-left p:last-child,
+.section2-right p:last-child {
+  padding-top: 50px;
+}
+/********************************/
+/* 진료분야 이미지 */
+/********************************/
+.section2-left .section2-left-img {
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 200px;
+  background-size: contain;
+  border-radius: 50px;
+  background-image: url("../../../assets/img/section2_1.png");
+  position: absolute;
+  left: 0;
+  top: -110px;
+}
+.section2-right .section2-right-img {
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 200px;
+  background-size: contain;
+  border-radius: 50px;
+  background-image: url("../../../assets/img/section2_2.png");
+  position: absolute;
+  left: 0;
+  top: -110px;
+}
+/********************************/
+/* SECTION 3 */
+/********************************/
+.section-3 {
+  width: 100%;
+  height: 100%;
+}
+/********************************/
+/* 약력, 강의 및 방송 */
+/********************************/
+.section-3 .section3-left {
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  box-sizing: border-box;
+  padding-top: 70px;
+  vertical-align: top;
+}
+.section-3 .section3-right {
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  box-sizing: border-box;
+  padding-top: 70px;
+  vertical-align: top;
+}
+
+.section-3 .section3-left ul li {
+  font-size: 25px;
+  width: 40%;
+  margin-left: auto;
+  margin-right: 15px;
+  font-family: "AppleSD_R";
+  line-height: 1.8;
+  color: #707070;
+}
+.section-3 .section3-right ul li {
+  font-size: 25px;
+  width: 100%;
+  margin: 0 auto;
+  font-family: "AppleSD_R";
+  line-height: 1.8;
+  color: #707070;
+}
+.section-3 .section3-left ul li:nth-child(3) {
+  line-height: 1.1;
+}
+/********************************/
+/* 진료분야 중앙 하단 텍스트 */
+/********************************/
+.section-3 .section3-txt {
+  width: 47%;
+  margin: 0 auto;
+  padding-top: 150px;
+  text-align: center;
+}
+.section-3 .section3-txt p {
+  font-size: 26px;
+  font-family: "Kimjungchul_R";
+  color: #000000;
+  line-height: 1.3;
+}
+/********************************/
+/* SECTION 4 */
+/********************************/
+.section-4 {
+  width: 100%;
+  height: 100%;
+  background-color: #ededed;
+  margin-top: 50px;
+}
+/********************************/
+/* SOLUTIONS */
+/********************************/
+.section-4 .section4-left,
+.section-4 .section4-right {
+  padding: 80px;
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+.section-4 .solutions-img {
+  background-position: right top;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 200px;
+  background-size: contain;
+  background-image: url("../../../assets/img/main.gif");
+}
+.section-4 .section4-right p {
+  width: 50%;
+  font-size: 24px;
+  line-height: 34px;
+  font-family: "Kimjungchul_R";
+}
+.section-4 .section4-right h3 {
+  font-size: 35px;
+  padding-bottom: 40px;
+  font-family: "NanumS_R";
+}
+.section-4 .section4-right p:last-child {
+  padding-top: 20px;
+}
+/********************************/
+/* SECTION 5 */
+/********************************/
+.section-5 {
+  width: 100%;
+  height: 100%;
+  margin-left: 350px;
+}
+
+/********************************/
+/* ASIDE */
+/********************************/
+.wrap .aside-wrap {
+  position: fixed;
+  right: 3%;
+  top: 50%;
+  z-index: 3;
+}
+.wrap .aside-wrap .aside-inner {
+  border: 1px solid #c6c6c6;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.wrap .aside-wrap .aside-inner div {
+  padding: 15px;
+  border-bottom: 1px solid #c6c6c6;
+}
+
+/********************************/
+/* HEADER */
+/********************************/
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  width: 100%;
+
+  z-index: 2;
+}
+/********************************/
+/* 헤더 메뉴 틀 */
+/********************************/
+.header .header-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 6px rgba(255, 255, 255, 0.2);
+  max-width: 1800px;
+  margin: 0 auto;
+}
+/********************************/
+/* 로고 */
+/********************************/
+.header .header-wrap .header-logo {
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 91px;
+  height: 71px;
+  background-size: contain;
+  background-image: url("../../../assets/img/main_logo.png");
+}
+/********************************/
+/* 메뉴 */
+/********************************/
+.header .header-wrap .header-menu {
+  display: flex;
+  justify-content: center;
+}
+/********************************/
+/* HEADER 메뉴 이름 */
+/********************************/
+.header .header-wrap .header-menu ul {
+  display: flex;
+  gap: 80px;
+}
+.header .header-wrap .header-menu ul li {
+  font-size: 18px;
+  font-family: "AppleSD_R";
+  color: #202945;
+  opacity: 1;
+  cursor: pointer;
+}

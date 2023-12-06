@@ -1,0 +1,29 @@
+/* APPLE */
+@font-face {
+  font-family: "AppleSD_R";
+  src: url("../../font/AppleSDGothicNeoR.ttf");
+}
+
+/* 제주고딕 */
+@font-face {
+  font-family: "Jeju";
+  src: url("../../font/JejuGothic.ttf");
+}
+
+/* 김정철 명조*/
+@font-face {
+  font-family: "Kimjungchul_R";
+  src: url("../../font/KimjungchulMyungjo-Regular.ttf");
+}
+
+/* 나눔 명조*/
+@font-face {
+  font-family: "NanumM";
+  src: url("../../font/NanumMyeongjo.ttf");
+}
+
+/* 나눔 스퀘어*/
+@font-face {
+  font-family: "NanumS_R";
+  src: url("../../font/NanumSquareR.ttf");
+}
