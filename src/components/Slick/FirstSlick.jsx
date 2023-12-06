@@ -22,7 +22,6 @@ const FirstSlick = () => {
         modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
         slidesPerView={1}
         navigation
-        pagination={{ clickable: true }}
         scrollbar={{ draggable: true }}
         autoplay={{ delay: 5000, disableOnInteraction: false }}
       >
